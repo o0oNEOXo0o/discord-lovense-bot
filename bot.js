@@ -31,7 +31,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     to: channelID,
                     message: 'Lets play'
                 });
-			case 'patreon':
+	    case 'patreon':
                 bot.sendMessage({
                     to: channelID,
                     message: 'Support us on Patreon: https://www.patreon.com/lovense'
