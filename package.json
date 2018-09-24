@@ -4,9 +4,13 @@
   "description": "Lovense Bot",
   "main": "bot.js",
   "author": "Amon",
+  "scripts": {
+    "start": "forever start --minUptime 1000 --spinSleepTime 1000 bot.js",
+    "stop":  "forever stop bot.js"
+  },
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "winston": "^3.1.0"
+    "winston": "^3.1.0",
     "discord.js": "^11.3.0"
   }
 }
