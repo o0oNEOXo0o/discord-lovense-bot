@@ -30,8 +30,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			bot.sendMessage({
 			to: channelID,
 			message: 'Lets play',
-			message.react("ðŸ‘")
-			.then(message.react("ðŸ‘Ž"))
+			message.react("🤔")
+			.then(message.react(":two:"))
 			.catch(console.error);
 		});
 		case 'patreon':
