@@ -5,7 +5,7 @@
   "main": "bot.js",
   "author": "Amon",
   "scripts": {
-    "start": "nodemon my_file.js"
+    "start": "nodemon bot.js"
   },
   "devDependencies": {
   },
