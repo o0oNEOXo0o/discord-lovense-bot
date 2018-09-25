@@ -26,6 +26,14 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 	    
 	args = args.splice(1);
 	switch(cmd) {
+		case 'rules':
+			bot.sendMessage({
+			to: channelID,
+			message: 'Lets play',
+			//message.react("🤔")
+			//.then(message.react(":two:"))
+			//.catch(console.error);
+		});
 		case 'play':
 			bot.sendMessage({
 			to: channelID,
