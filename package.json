@@ -4,9 +4,6 @@
   "description": "Lovense Bot",
   "main": "bot.js",
   "author": "Amon",
-  "scripts": {
-    "start": "nodemon bot.js"
-  },
   "devDependencies": {
   },
   "dependencies": {
