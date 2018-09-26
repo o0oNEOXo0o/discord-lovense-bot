@@ -70,22 +70,6 @@ client.on("message", async message => {
     message.channel.send(sayMessage);
   }
   
-  if(command === "obey") {
-    // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
-    // To get the "message" itself we join the `args` back into a string with spaces: 
-    const sayMessage = args.join(" ");
-    // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
-    message.delete().catch(O_o=>{}); 
-    // And we get the bot to say the thing: 
-    message.channel.send(sayMessage);
-  }
-
- if(command === "react") {
-message.react('??')
-  .then(console.log)
-  .catch(console.error);
-  }
-  
   if(command === "kick") {
     // This command must be limited to mods and admins. In this example we just hardcode the role names.
     // Please read on Array.some() to understand this bit: 
